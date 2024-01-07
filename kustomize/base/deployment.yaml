@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: limarktest/nodejs-docker:latest
+          image: shivakrishna99/nodejs-docker:latest
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
