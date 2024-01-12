@@ -4,7 +4,7 @@ bases:
   - ../../base
 imageTags:
   - name: shivakrishna99/nodejs-docker
-    newTag: v9
+    newTag: v10
 patchesStrategicMerge:
   - deployment-patch.yaml
   - service-patch.yaml
